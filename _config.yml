@@ -1,0 +1,58 @@
+# Site settings
+title:       "George's Feed"
+email:       georgepearman@me.com
+author:      George Pearman
+description: "Here's a simple list of things that have interested me"
+baseurl:     ""
+url:         "http://georgepearman.com/feed"
+
+# Google analytics
+google_analytics: "UA-64532803-1"
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+show_social_icons:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+github_username: georgepearman
+bitbucket_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username: georgepearman
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+share_text: 'Share this post!'
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  compressed: true
+gems:
+  - jekyll-sitemap
