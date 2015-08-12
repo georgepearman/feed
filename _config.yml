@@ -3,7 +3,7 @@ title:       "George's Feed"
 email:       georgepearman@me.com
 author:      George Pearman
 description: "Here's a simple list of things that have interested me"
-baseurl:     ""
+baseurl:     "/feed"
 url:         "http://georgepearman.com/feed"
 
 # Google analytics
